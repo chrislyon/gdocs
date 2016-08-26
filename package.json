@@ -1,0 +1,20 @@
+{
+  "name": "gdocs",
+  "version": "1.0.0",
+  "description": "Gestion de Doc Simple",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "heredoc": "*",
+    "morgan": "*",
+    "pug": "^2.0.0-beta4",
+    "pug-bootstrap": "*",
+    "sqlite3": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chris",
+  "license": "ISC"
+}

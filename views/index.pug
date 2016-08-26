@@ -1,0 +1,15 @@
+extends ../node_modules/pug-bootstrap/_bootstrap.pug
+
+block body
+	+navbar("GDOCS Test Site","navbar","inverse")
+		+nav_item( "/", "active" ) Home
+		+nav_item( "/about", "active" ) About
+
+	.container
+		h1 GDOCS / Gestion simple de docs
+		p.lead
+			| on va essayer de faire GDOCS
+			br
+			| avec node pug sqlite etc ...
+			br
+			| il faut bien démarrer
